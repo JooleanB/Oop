@@ -1,0 +1,479 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Oferta', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/musat/Desktop/OOP/OfertaLab6/OfertaLab6/Oferta.h"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 2,
+                  "endLine": 16,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferta::{ctor}",
+                  "decoratedName": "??0Oferta@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Oferta::setPret' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/musat/Desktop/OOP/OfertaLab6/OfertaLab6/Oferta.h"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 7,
+                  "endLine": 45,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferta::setPret",
+                  "decoratedName": "?setPret@Oferta@@QEAAXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'ConsolUI::ConsolUI' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/musat/Desktop/OOP/OfertaLab6/OfertaLab6/console.h"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 2,
+                  "endLine": 19,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ConsolUI::{ctor}",
+                  "decoratedName": "??0ConsolUI@@QEAA@AEAVAgentie@@AEAVCosService@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'oferta' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/musat/Desktop/OOP/OfertaLab6/OfertaLab6/console.cpp"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 105,
+                  "endLine": 14,
+                  "endColumn": 119
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ConsolUI::tipareste",
+                  "decoratedName": "?tipareste@ConsolUI@@AEAAXAEBV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/Desktop/OOP/OfertaLab6/OfertaLab6/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 14,
+                            "startColumn": 119
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'product' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/musat/Desktop/OOP/OfertaLab6/OfertaLab6/console.cpp"
+                },
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 54,
+                  "endLine": 97,
+                  "endColumn": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ConsolUI::print_cosUI",
+                  "decoratedName": "?print_cosUI@ConsolUI@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/Desktop/OOP/OfertaLab6/OfertaLab6/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 97,
+                            "startColumn": 61
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'sE' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/musat/Desktop/OOP/OfertaLab6/OfertaLab6/console.cpp"
+                },
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 2,
+                  "endLine": 108,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ConsolUI::undo",
+                  "decoratedName": "?undo@ConsolUI@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '(this->ConsolUI::ctr)' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/musat/Desktop/OOP/OfertaLab6/OfertaLab6/console.cpp"
+                },
+                "region": {
+                  "startLine": 174,
+                  "startColumn": 15,
+                  "endLine": 174,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ConsolUI::start",
+                  "decoratedName": "?start@ConsolUI@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/Desktop/OOP/OfertaLab6/OfertaLab6/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 174,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '(this->ConsolUI::cos_serv)' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/musat/Desktop/OOP/OfertaLab6/OfertaLab6/console.cpp"
+                },
+                "region": {
+                  "startLine": 204,
+                  "startColumn": 6,
+                  "endLine": 204,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ConsolUI::start",
+                  "decoratedName": "?start@ConsolUI@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/Desktop/OOP/OfertaLab6/OfertaLab6/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 204,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'result.->' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/musat/Desktop/OOP/OfertaLab6/OfertaLab6/console.cpp"
+                },
+                "region": {
+                  "startLine": 218,
+                  "startColumn": 6,
+                  "endLine": 218,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ConsolUI::start",
+                  "decoratedName": "?start@ConsolUI@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/Desktop/OOP/OfertaLab6/OfertaLab6/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 218,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32215.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/musat/Desktop/OOP/OfertaLab6/OfertaLab6/Oferta.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "eba354c72ab6593c3b6329b761787f564bdd2edd8d956ebe588b15f4e9009e5e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/musat/Desktop/OOP/OfertaLab6/OfertaLab6/console.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "99d690cdeca1c0886d7b6fc3e0f6b93b62b86a03763ca6baeccb59d60909e823"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/musat/Desktop/OOP/OfertaLab6/OfertaLab6/console.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a83c53ff8bd7964fedf1a0e3f8a635be7431e30fe0f677aafabec7adaed0b7f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/musat/desktop/oop/ofertalab6/ofertalab6/service.h"
+          },
+          "hashes": {
+            "sha-256": "5c2657a125b7fc73e8267e745e893c9b8799b8ff29f237869a02eda2c5635bc2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/musat/desktop/oop/ofertalab6/ofertalab6/repo.h"
+          },
+          "hashes": {
+            "sha-256": "8438971ebd2615feb8690938494d4a7aa41dcb5edf564b3bb03cab55a75adf46"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/musat/desktop/oop/ofertalab6/ofertalab6/undo_nou.h"
+          },
+          "hashes": {
+            "sha-256": "c66cd51a8b4456b10eabc3181e7f7ff5339977ff3cbf52547f40c1e8c8f63ad2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/musat/desktop/oop/ofertalab6/ofertalab6/validator.h"
+          },
+          "hashes": {
+            "sha-256": "8b8dc7b905003c1a9924f70bbb8eb144549b879a74691c85ce9164c595cbef0e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/musat/desktop/oop/ofertalab6/ofertalab6/service_cos.h"
+          },
+          "hashes": {
+            "sha-256": "260550c03dd554e38af4b2fb64a9fc1756ef659be448480481da8d1e2df3043f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/musat/desktop/oop/ofertalab6/ofertalab6/repocos.h"
+          },
+          "hashes": {
+            "sha-256": "c3dbd338f897affb8d8c3a0ff21eb0d922a0e072a415fcf29bb23402b6551c1d"
+          }
+        }
+      ]
+    }
+  ]
+}

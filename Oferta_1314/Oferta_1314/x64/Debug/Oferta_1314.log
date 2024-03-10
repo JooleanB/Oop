@@ -1,0 +1,17 @@
+﻿  cos_crud_gui.cpp
+  Cos_GUI.cpp
+  cos_read_gui.cpp
+  custom_model.cpp
+  GUI.cpp
+  main.cpp
+  Oferta.cpp
+  QT_OFERTA.cpp
+  Repo.cpp
+  RepoCos.cpp
+  Service.cpp
+  ServiceCos.cpp
+  validator.cpp
+C:\Users\musat\Desktop\OOP\Oferta_1314\Oferta_1314\main.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  qrc_Oferta_1314.cpp
+  moc_QT_OFERTA.cpp
+  Oferta_1314.vcxproj -> C:\Users\musat\Desktop\OOP\Oferta_1314\x64\Debug\Oferta_1314.exe

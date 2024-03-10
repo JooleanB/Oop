@@ -1,0 +1,4 @@
+﻿  GUI.cpp
+  main.cpp
+C:\Users\musat\source\repos\QT_OFERTA\QT_OFERTA\main.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  QT_OFERTA.vcxproj -> C:\Users\musat\source\repos\QT_OFERTA\x64\Debug\QT_OFERTA.exe

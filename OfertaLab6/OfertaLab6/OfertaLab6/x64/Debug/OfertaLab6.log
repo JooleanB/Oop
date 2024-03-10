@@ -1,0 +1,163 @@
+﻿  console.cpp
+  RepoCos.cpp
+  Service.cpp
+  OfertaLab6.cpp
+  Repo.cpp
+  Service_cos.cpp
+  Running Code Analysis for C/C++...
+  Generating Code...
+  OfertaLab6.vcxproj -> C:\Users\musat\source\repos\OfertaLab6\x64\Debug\OfertaLab6.exe
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Oferta.h(16): warning C26432: If you define or delete any default operation in the type 'class Oferta', define or delete them all (c.21).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Oferta.h(45): warning C26440: Function 'Oferta::setPret' can be declared 'noexcept' (f.6).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\console.h(19): warning C26440: Function 'ConsolUI::ConsolUI' can be declared 'noexcept' (f.6).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\console.cpp(14): warning C26823: Dereferencing a possibly null pointer 'oferta' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\console.cpp(97): warning C26823: Dereferencing a possibly null pointer 'product' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\console.cpp(108): warning C26496: The variable 'sE' does not change after construction, mark it as const (con.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\console.cpp(174): warning C26823: Dereferencing a possibly null pointer '(this->ConsolUI::ctr)' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\console.cpp(204): warning C26823: Dereferencing a possibly null pointer '(this->ConsolUI::cos_serv)' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\console.cpp(218): warning C26823: Dereferencing a possibly null pointer 'result.->' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(16): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(19): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(19): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(47): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(47): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(36): warning C26493: Don't use C-style casts (type.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(47): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(47): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(38): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(47): warning C26823: Dereferencing a possibly null pointer '(this->CosRepo::repo)' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(66): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(66): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(66): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(67): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(67): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(67): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(68): warning C26823: Dereferencing a possibly null pointer 'allotemp.10' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(68): warning C26823: Dereferencing a possibly null pointer 'allotemp.11' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(68): warning C26823: Dereferencing a possibly null pointer 'allotemp.12' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(69): warning C26823: Dereferencing a possibly null pointer 'allotemp.14' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(69): warning C26823: Dereferencing a possibly null pointer 'allotemp.15' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\RepoCos.cpp(69): warning C26823: Dereferencing a possibly null pointer 'allotemp.16' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(10): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(10): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(12): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(13): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(13): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(14): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(6): warning C26429: Symbol 'maiMicF' is never tested for nullness, it can be marked as not_null (f.23).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(10): warning C26823: Dereferencing a possibly null pointer 'maiMicF' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(23): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(23): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(23): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(33): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(33): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(43): warning C26496: The variable 'pret_vechi' does not change after construction, mark it as const (con.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(41): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(41): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(45): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(45): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(46): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(46): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(46): warning C26823: Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(53): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(53): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(71): warning C26822: Dereferencing a null pointer 'nullptr' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(77): warning C26823: Dereferencing a possibly null pointer 'pet' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(85): warning C26440: Function '`Agentie::filtrarePretMaiMic'::`2'::<lambda_1>::operator()' can be declared 'noexcept' (f.6).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(87): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(91): warning C26440: Function '`Agentie::filtrarePret'::`2'::<lambda_1>::operator()' can be declared 'noexcept' (f.6).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(93): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(112): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(117): warning C26823: Dereferencing a possibly null pointer 'result.->' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(171): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(174): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(177): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(171): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(174): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(177): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(187): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(187): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(187): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(188): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(188): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(188): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(189): warning C26823: Dereferencing a possibly null pointer 'allotemp.10' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(189): warning C26823: Dereferencing a possibly null pointer 'allotemp.11' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(189): warning C26823: Dereferencing a possibly null pointer 'allotemp.12' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(190): warning C26823: Dereferencing a possibly null pointer 'allotemp.14' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(190): warning C26823: Dereferencing a possibly null pointer 'allotemp.15' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(190): warning C26823: Dereferencing a possibly null pointer 'allotemp.16' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(209): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(209): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(209): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(210): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(210): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(210): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(214): warning C26823: Dereferencing a possibly null pointer 'allotemp.14' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(214): warning C26823: Dereferencing a possibly null pointer 'allotemp.15' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(249): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service.cpp(249): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Oferta.cpp(8): warning C26440: Function 'cmpDestinatie' can be declared 'noexcept' (f.6).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(12): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(19): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(19): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(23): warning C26823: Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(25): warning C26823: Dereferencing a possibly null pointer 'allotemp.10' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(25): warning C26823: Dereferencing a possibly null pointer 'allotemp.11' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(32): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(32): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(36): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(38): warning C26823: Dereferencing a possibly null pointer 'result.->' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(38): warning C26823: There are other instances of this issue:
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(38): warning C26823: Dereferencing a possibly null pointer 'result.->' (lifetime.1). at line 39
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(38): warning C26823: Dereferencing a possibly null pointer 'result.->' (lifetime.1). at line 40
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(38): warning C26823: Dereferencing a possibly null pointer 'result.->' (lifetime.1). at line 41
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(38): warning C26823: 
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(45): warning C26823: Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(53): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(53): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(64): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(64): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(71): warning C26823: Dereferencing a possibly null pointer 'p' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(76): warning C26823: Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(97): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(97): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(97): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(99): warning C26823: Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(101): warning C26823: Dereferencing a possibly null pointer 'allotemp.10' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(101): warning C26823: Dereferencing a possibly null pointer 'allotemp.11' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(101): warning C26823: Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(105): warning C26823: Dereferencing a possibly null pointer 'allotemp.13' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(105): warning C26823: Dereferencing a possibly null pointer 'allotemp.14' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(105): warning C26823: Dereferencing a possibly null pointer 'allotemp.15' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(112): warning C26823: Dereferencing a possibly null pointer 'allotemp.16' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(112): warning C26823: Dereferencing a possibly null pointer 'allotemp.17' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(124): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(124): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(124): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(125): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(125): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(125): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(127): warning C26823: Dereferencing a possibly null pointer 'allotemp.10' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(127): warning C26823: Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(132): warning C26823: Dereferencing a possibly null pointer 'allotemp.13' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Repo.cpp(132): warning C26823: Dereferencing a possibly null pointer 'allotemp.14' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service_cos.cpp(38): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service_cos.cpp(38): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service_cos.cpp(38): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service_cos.cpp(39): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service_cos.cpp(39): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service_cos.cpp(39): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service_cos.cpp(40): warning C26823: Dereferencing a possibly null pointer 'allotemp.10' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service_cos.cpp(40): warning C26823: Dereferencing a possibly null pointer 'allotemp.11' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service_cos.cpp(40): warning C26823: Dereferencing a possibly null pointer 'allotemp.12' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service_cos.cpp(41): warning C26823: Dereferencing a possibly null pointer 'allotemp.14' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service_cos.cpp(41): warning C26823: Dereferencing a possibly null pointer 'allotemp.15' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service_cos.cpp(41): warning C26823: Dereferencing a possibly null pointer 'allotemp.16' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service_cos.cpp(61): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\Service_cos.cpp(66): warning C26823: Dereferencing a possibly null pointer 'oferta' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\validator.cpp(28): warning C26823: Dereferencing a possibly null pointer 'msg' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\validator.cpp(42): warning C26496: The variable 'mesaj' does not change after construction, mark it as const (con.4).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\validator.cpp(35): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\validator.cpp(35): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\musat\source\repos\OfertaLab6\OfertaLab6\validator.cpp(35): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).

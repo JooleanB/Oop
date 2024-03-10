@@ -1,0 +1,21 @@
+[2023-03-28 08:32:11] [info] Start Program:
+Path:"C:\Users\musat\source\repos\CofetarieDinamic\x64\Debug\CofetarieDinamic.exe"
+Arguments:
+Working directory: "C:\Users\musat\source\repos\CofetarieDinamic\CofetarieDinamic\"
+Modules: Selected: C:\Users\musat\source\repos\CofetarieDinamic\x64\Debug\CofetarieDinamic.exe Excluded: 
+Sources: Selected: C:\Users\musat\source\repos\CofetarieDinamic\CofetarieDinamic Excluded: UI.cpp 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\musat\AppData\Local\Temp\uiymgoyv.iob 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2023-03-28 08:32:11] [info] Module: C:\Users\musat\source\repos\CofetarieDinamic\x64\Debug\CofetarieDinamic.exe is selected because it matches selected pattern: C:\Users\musat\source\repos\CofetarieDinamic\x64\Debug\CofetarieDinamic.exe
+[2023-03-28 08:32:11] [info] ----------------------------------------------------
+[2023-03-28 08:32:11] [info] Coverage binary generated in file: C:\Users\musat\AppData\Local\Temp\uiymgoyv.iob
+[2023-03-28 08:32:11] [info] ----------------------------------------------------

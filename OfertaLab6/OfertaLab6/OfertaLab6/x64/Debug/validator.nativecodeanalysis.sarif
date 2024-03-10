@@ -1,0 +1,552 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Oferta', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/Oferta.h"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 2,
+                  "endLine": 16,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferta::{ctor}",
+                  "decoratedName": "??0Oferta@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Oferta::setPret' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/Oferta.h"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 7,
+                  "endLine": 45,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferta::setPret",
+                  "decoratedName": "?setPret@Oferta@@QEAAXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'msg' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 3,
+                  "endLine": 28,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "<<",
+                  "decoratedName": "??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEBVValidateException@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'mesaj' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 8,
+                  "endLine": 42,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testValidator",
+                  "decoratedName": "?testValidator@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testValidator",
+                  "decoratedName": "?testValidator@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testValidator",
+                  "decoratedName": "?testValidator@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testValidator",
+                  "decoratedName": "?testValidator@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32215.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/Oferta.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "eba354c72ab6593c3b6329b761787f564bdd2edd8d956ebe588b15f4e9009e5e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/musat/source/repos/OfertaLab6/OfertaLab6/validator.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "cc2cd7c1a9d00c6c15ed97fc99906600d1820a7a1a67bfd0461401f2b6432ced"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/musat/source/repos/ofertalab6/ofertalab6/validator.h"
+          },
+          "hashes": {
+            "sha-256": "8b8dc7b905003c1a9924f70bbb8eb144549b879a74691c85ce9164c595cbef0e"
+          }
+        }
+      ]
+    }
+  ]
+}
